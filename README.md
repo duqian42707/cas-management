@@ -1,57 +1,36 @@
-<p align="center">
-<img src="https://user-images.githubusercontent.com/1205228/30969994-e2fe6bf0-a470-11e7-80f9-d54d1e4d348e.png">
-</p>
+# CAS 服务管理项目（5.3.x 中文版）
 
-# CAS Management Web Application
+## 项目介绍
 
-[![ghit.me](https://ghit.me/badge.svg?repo=apereo/cas-management)](https://ghit.me/repo/apereo/cas-management)
-[![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/apereo/cas-management/blob/master/LICENSE)
-[![Twitter](https://img.shields.io/badge/Apereo%20CAS-Twitter-blue.svg)](https://twitter.com/apereo)
-[![Support](https://img.shields.io/badge/Support-Mailing%20Lists-green.svg?colorB=ff69b4)][cassupport]
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)][casgitter] 
-[![Slack](https://img.shields.io/badge/Slack-join%20chat-blue.svg)][casslack]
-[![Stack Overflow](http://img.shields.io/:stack%20overflow-cas-brightgreen.svg)](http://stackoverflow.com/questions/tagged/cas-management)
+- 本项目是针对 [原项目](https://github.com/apereo/cas-management) 的中文翻译版本
+- 仅翻译了`5.3.x`分支的部分内容
 
-## Introduction
+![](docs/main-zh-Hans.jpg)
 
-Welcome to the home of the CAS Management Web Application.  This project is a companion to [Central Authentication Service project](https://www.apereo.org/cas), more commonly referred to as CAS.
-CAS is an enterprise multilingual single sign-on solution for the web and attempts to be a comprehensive platform for your authentication and authorization needs.
+## 本地运行
 
-The CAS Management Web Application provides a web interface that is used to configure and manage a Service Registry used by the CAS Server to restrict access to authorized clients.
+1. 进入目录 `./webapp-mgmt/cas-management-webapp/`
+2. 安装依赖：npm install
+3. 启动一个后端程序
+4. 配置好 Angular 代理 (proxy.config.js)
+5. 启动前端：npm run start:zh-Hans
+6. 打开后端程序，登录，进入管理页面，打开控制台，找到cookie JSESSIONID，将值复制出来，粘贴给前端项目
+7. 这样前端项目就可以正常调用接口了
 
-## Contributions [![Contributing Guide](https://img.shields.io/badge/contributing-guide-green.svg?style=flat)][contribute]
+## 要翻译的文字位置
 
-- [How to contribute][contribute]
+1. src/locale/messages.zh-Hans.xlf
+2. src/app/messages.ts
+3. 页面中没有用到 i18n 的地方（也就是写死的地方）
 
-If you have already identified an enhancement or a bug, it is STRONGLY recommended that you simply submit a pull request to address the case. There is no need for special ceremony to create separate issues. The pull request IS the issue and it will be tracked and tagged as such.
+## 打包
 
-## Documentation
+```bash
+npm run build:zh-Hans
+```
 
-[![JavaDoc](https://img.shields.io/badge/Documentation-Javadoc-ff69b4.svg)](http://www.javadoc.io/doc/org.apereo.cas/cas-management)
+## 参考链接
 
-- [Documentation][wiki]
-- [Blog][blog]
-- [Release Notes][releasenotes]
-- [Support][cassupport]
-
-## Development
-
-[![Build Status](https://travis-ci.org/apereo/cas-management.svg?branch=master)](https://travis-ci.org/apereo/cas-management)
-
-To build the project locally, please follow [this guide](https://apereo.github.io/cas/developer/Build-Process.html). The release schedule is [available here](https://github.com/apereo/cas-management/milestones).
-
-
-## Support
-
-CAS is 100% free open source software managed by [Apereo](https://www.apereo.org/), licensed under [Apache v2](LICENSE). Our community has access to all releases of the CAS software with absolutely no costs. We welcome contributions from our community of all types and sizes. The time and effort to develop and maintain this project is dedicated by a group of [volunteers and contributors](https://github.com/apereo/cas/graphs/contributors). Support options may be [found here][cassupport]. If you (or your employer) benefit from this project, please consider becoming a [Friend of Apereo](https://www.apereo.org/friends) and contribute.
-
-[wiki]: https://apereo.github.io/cas-management
-[contribute]: https://apereo.github.io/cas/developer/Contributor-Guidelines.html
-[cassonatype]: https://oss.sonatype.org/content/repositories/snapshots/org/apereo/cas/
-[casmavencentral]: http://mvnrepository.com/artifact/org.apereo.cas
-[downloadcasgithub]: https://github.com/apereo/cas-management/archive/master.zip
-[releasenotes]: https://github.com/apereo/cas-management/releases
-[cassupport]: https://apereo.github.io/cas-management/Support.html
-[casgitter]: https://gitter.im/apereo/cas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
-[casslack]: https://apereo.slack.com/
-[blog]: https://apereo.github.io/
+- [Angular国际化(stable)](https://angular.io/guide/i18n)
+- [Angular国际化(v7)](https://v7.angular.io/guide/i18n)
+- [ng xi18n命令用法(v7)](https://v7.angular.io/cli/xi18n)
