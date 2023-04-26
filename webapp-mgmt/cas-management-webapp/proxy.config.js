@@ -14,6 +14,12 @@ const apis = [
   '/getService',
   '/getServices',
   '/formData',
+  '/saveService',
+  '/getYaml',
+  '/getJson',
+  '/updateOrder',
+  '/deleteRegisteredService',
+  '/search',
 ]
 
 const data = {};

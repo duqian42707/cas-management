@@ -1,70 +1,70 @@
 import {Injectable} from '@angular/core';
 /**
- * Translated by duqian42707 on 2023-04-26.
+ * Created by tschmidt on 2/10/17.
  */
 /* tslint:disable */
 @Injectable()
 export class Messages {
-  // Welcome Screen Messages
+ // Welcome Screen Messages
 
 // Blocked Errors Page
-  readonly screen_blocked_header = 'Access Denied';
-  readonly screen_blocked_message = 'You are not authorized to access this resource. Contact your CAS administrator for more info.';
+ readonly screen_blocked_header = 'Access Denied';
+ readonly screen_blocked_message = 'You are not authorized to access this resource. Contact your CAS administrator for more info.';
 
 // Logout Screen Messages
-  readonly screen_logout_header  = 'Logout successful';
-  readonly screen_logout_success = 'You have successfully logged out of the CAS Management web application.';
+ readonly screen_logout_header  = 'Logout successful';
+ readonly screen_logout_success = 'You have successfully logged out of the CAS Management web application.';
 
 // SERVICES MANAGEMENT HEADER
-  readonly management_services_header_apptitle = 'CAS Management';
-  readonly management_services_header_navbar_navitem_addNewService = '新增服务';
-  readonly management_services_header_navbar_navitem_manageService = 'Manage Services';
-  readonly management_services_header_navbar_navitem_sessions = 'Sessions';
-  readonly management_services_header_navbar_navitem_search = '查询';
-  readonly management_services_header_navbar_navitem_logout = '注销';
-  readonly management_services_header_pendingSubmits = 'There are pending submits that need to be reviewed';
+ readonly management_services_header_apptitle = 'CAS Management';
+ readonly management_services_header_navbar_navitem_addNewService = 'Add New Service';
+ readonly management_services_header_navbar_navitem_manageService = 'Manage Services';
+ readonly management_services_header_navbar_navitem_sessions = 'Sessions';
+ readonly management_services_header_navbar_navitem_search = 'Search';
+ readonly management_services_header_navbar_navitem_logout = 'Log Out';
+ readonly management_services_header_pendingSubmits = 'There are pending submits that need to be reviewed';
 
 // MANAGE SERVICES TABLE
-  readonly management_services_table_label_search = 'Search by Service ID, Name or Description';
-  readonly management_services_table_header_serviceName = 'Service Name';
-  readonly management_services_table_header_serviceId = 'Service URL';
-  readonly management_services_table_header_serviceDesc = 'Service Description';
-  readonly management_services_table_details_description = 'Full Description';
-  readonly management_services_table_details_proxyPolicy = 'Proxy Policy';
-  readonly management_services_table_details_attrPolicy = 'Attribute Policy Option';
-  readonly management_services_table_details_releaseCred = 'Release Credential';
-  readonly management_services_table_details_releaseProxy = 'Release Proxy ID';
-  readonly management_services_table_button_edit = '编辑';
-  readonly management_services_table_button_duplicate = '复制';
-  readonly management_services_table_button_delete = '删除';
-  readonly management_services_table_modal_delete_header = 'Confirm Delete';
-  readonly management_services_table_modal_delete_msgPt1 = 'You are about to permanently delete';
-  readonly management_services_table_modal_delete_msgPt2 = 'Are you sure you wish to continue?';
-  readonly management_services_table_modal_commit_header = 'Commit to Repository';
-  readonly management_services_table_modal_commit_listheader = 'Services to be committed:';
-  readonly management_services_table_modal_commit_required = 'A commit message is required';
-  readonly management_services_table_modal_commit_placeholder = 'Enter a commit message';
-  readonly management_services_table_modal_button_commit = 'Commit';
-  readonly management_services_table_modal_button_cancel = 'Cancel';
-  readonly management_services_table_modal_button_delete = 'Delete';
-  readonly management_services_table_modal_button_submit = 'Submit';
-  readonly management_services_table_modal_submit_header = 'Submit Request';
-  readonly management_services_table_modal_submit_listheader = 'Select commits to submitted:';
+ readonly management_services_table_label_search = 'Search by Service ID, Name or Description';
+ readonly management_services_table_header_serviceName = 'Service Name';
+ readonly management_services_table_header_serviceId = 'Service URL';
+ readonly management_services_table_header_serviceDesc = 'Service Description';
+ readonly management_services_table_details_description = 'Full Description';
+ readonly management_services_table_details_proxyPolicy = 'Proxy Policy';
+ readonly management_services_table_details_attrPolicy = 'Attribute Policy Option';
+ readonly management_services_table_details_releaseCred = 'Release Credential';
+ readonly management_services_table_details_releaseProxy = 'Release Proxy ID';
+ readonly management_services_table_button_edit = 'Edit';
+ readonly management_services_table_button_duplicate = 'Duplicate';
+ readonly management_services_table_button_delete = 'Delete';
+ readonly management_services_table_modal_delete_header = 'Confirm Delete';
+ readonly management_services_table_modal_delete_msgPt1 = 'You are about to permanently delete';
+ readonly management_services_table_modal_delete_msgPt2 = 'Are you sure you wish to continue?';
+ readonly management_services_table_modal_commit_header = 'Commit to Repository';
+ readonly management_services_table_modal_commit_listheader = 'Services to be committed:';
+ readonly management_services_table_modal_commit_required = 'A commit message is required';
+ readonly management_services_table_modal_commit_placeholder = 'Enter a commit message';
+ readonly management_services_table_modal_button_commit = 'Commit';
+ readonly management_services_table_modal_button_cancel = 'Cancel';
+ readonly management_services_table_modal_button_delete = 'Delete';
+ readonly management_services_table_modal_button_submit = 'Submit';
+ readonly management_services_table_modal_submit_header = 'Submit Request';
+ readonly management_services_table_modal_submit_listheader = 'Select commits to submitted:';
 
 
-  readonly registeredService_serviceId_exists = 'A Service with that Service URL already exists.';
+ readonly registeredService_serviceId_exists = 'A Service with that Service URL already exists.';
 
-  readonly application_title = 'Apereo Central Authentication Service';
-  readonly application_errors_global = 'Please correct the errors below:';
+ readonly application_title = 'Apereo Central Authentication Service';
+ readonly application_errors_global = 'Please correct the errors below:';
 
-  readonly management_services_status_deleted = 'has been successfully deleted.';
-  readonly management_services_status_notdeleted = 'A problem has occurred while trying to delete the service. Be aware that the default service can not be deleted.';
-  readonly management_services_status_listfail = 'Unable to retrieve service listing.';
-  readonly management_services_status_evaluationOrder_notupdated = 'The service evaluation order can not be updated.';
-  readonly management_services_status_committed = 'Service changes successfully committed.';
-  readonly management_services_status_published = 'Service changes successfully published.';
-  readonly management_services_status_notcommitted = 'A problem has occurred while trying to commit service changes. Please check system logs for additional information.';
-  readonly management_services_status_notpublished = 'A problem has occurred while trying to publish services to CAS nodes.  Please check system logs for additional information.';
+ readonly management_services_status_deleted = 'has been successfully deleted.';
+ readonly management_services_status_notdeleted = 'A problem has occurred while trying to delete the service. Be aware that the default service can not be deleted.';
+ readonly management_services_status_listfail = 'Unable to retrieve service listing.';
+ readonly management_services_status_evaluationOrder_notupdated = 'The service evaluation order can not be updated.';
+ readonly management_services_status_committed = 'Service changes successfully committed.';
+ readonly management_services_status_published = 'Service changes successfully published.';
+ readonly management_services_status_notcommitted = 'A problem has occurred while trying to commit service changes. Please check system logs for additional information.';
+ readonly management_services_status_notpublished = 'A problem has occurred while trying to publish services to CAS nodes.  Please check system logs for additional information.';
 
 
 // EDIT/ADD SERVICE FORM
@@ -75,18 +75,17 @@ export class Messages {
  readonly services_form_label_true = 'True';
  readonly services_form_label_false = 'False';
 
-
 // SPECIFIC LABELS
- readonly services_form_label_name = '服务名称';
- readonly services_form_label_description = '描述';
- readonly services_form_label_type = '服务类型';
+ readonly services_form_label_name = 'Service Name';
+ readonly services_form_label_description = 'Description';
+ readonly services_form_label_type = 'Service Type';
  readonly services_form_label_responseType = 'Response Type';
  readonly services_form_label_casClients = 'CAS Client';
  readonly services_form_label_renewalDate = 'Renewal Date';
- readonly services_form_label_theme = '主题';
- readonly services_form_label_serviceId = '服务地址';
+ readonly services_form_label_theme = 'Theme';
+ readonly services_form_label_serviceId = 'Service URL';
  readonly services_form_label_entityId = 'Entity ID';
- readonly services_form_label_redirect_url = '重定向地址';
+ readonly services_form_label_redirect_url = 'Redirect URL';
  readonly services_form_label_consumer_url = 'Consumer URL';
  readonly services_form_label_requiredHandlers = 'Required Handlers';
  readonly services_form_label_requiresDuo = 'Requires Duo';
@@ -109,10 +108,10 @@ export class Messages {
  readonly services_form_label_proxyPolicy_regex = 'Regex';
  readonly services_form_label_oauthClientSecret = 'OAuth Client Secret';
  readonly services_form_label_oauthClientId = 'OAuth Client ID';
- readonly services_form_label_oauthShowSecret = '显示 Client Secret';
- readonly services_form_label_oauthBypass = 'OAuth 绕过批准提示';
- readonly services_form_label_oauthRefreshToken = 'OAuth 刷新令牌生成';
- readonly services_form_label_oauthJsonFormat = 'JSON 格式的 Access Tokens';
+ readonly services_form_label_oauthShowSecret = 'Show Client Secret';
+ readonly services_form_label_oauthBypass = 'OAuth Bypass Approval Prompt';
+ readonly services_form_label_oauthRefreshToken = 'OAuth Refresh Token Generation';
+ readonly services_form_label_oauthJsonFormat = 'JSON format for access tokens';
 
  readonly services_form_label_oidcClientSecret = 'OIDC Client Secret';
  readonly services_form_label_oidcClientId = 'OIDC Client ID';
@@ -153,7 +152,7 @@ export class Messages {
  readonly services_form_label_attrRelease_entityAttribute = 'Metadata Entity Attribute';
  readonly services_form_label_attrRelease_entityAttributeFormat = 'Metadata Entity Attribute Format';
  readonly services_form_label_sas_authorizedCodes = 'Acceptable HTTP Codes';
- readonly services_form_label_sas_casEnabled = '启用服务';
+ readonly services_form_label_sas_casEnabled = 'Enable Service';
  readonly services_form_label_sas_ssoEnabled = 'Allow Single Sign-On';
  readonly services_form_label_sas_requireAll = 'Require All Attributes';
  readonly services_form_label_sas_requiredAttr = 'Required Attributes';
@@ -221,7 +220,7 @@ export class Messages {
  readonly services_form_label_expirationPolicy_notifyWhenDeleted = 'Notifiy contacts when service is deleted';
 
  readonly services_form_header_page_addService = 'Add Service';
- readonly services_form_header_page_editService = '编辑服务';
+ readonly services_form_header_page_editService = 'Edit Service';
  readonly services_form_header_oauthOptions = 'OAuth Client Options Only';
  readonly services_form_header_usernameAttProvider = 'Username Attribute Provider Options';
  readonly services_form_header_pubKey = 'Public Key Options';
@@ -236,8 +235,8 @@ export class Messages {
  readonly services_form_header_multiauth = 'Multifactor Authentication Policy';
  readonly services_form_header_samlclient = 'SAML Client';
 
- readonly services_form_button_save = '保存修改';
- readonly services_form_button_cancel = '取消';
+ readonly services_form_button_save = 'Save Changes';
+ readonly services_form_button_cancel = 'Cancel';
 
  readonly services_form_warning_casDisabled = 'By disabling the service it will no longer be accessible.';
 
@@ -252,32 +251,32 @@ export class Messages {
  readonly services_form_tooltip_assignedId = 'Numeric identifier for this service that is auto-generated by CAS.';
  readonly services_form_tooltip_serviceId = 'A url that represents the application. This can be a regex/ant formatted url.';
  readonly services_form_tooltip_entityId = 'An string that represents the EntityId of the SAML2 SP. This can be a regex pattern.';
- readonly services_form_tooltip_redirect_url = 'OAuth/OIDC 服务要重定向到的 URL。';
+ readonly services_form_tooltip_redirect_url = 'A url that represents the OAuth/OIDC server to redirect to.';
  readonly services_form_tooltip_consumer_url = 'A url that represents a WS Federation Consumer URL';
- readonly services_form_tooltip_name = '服务名称';
- readonly services_form_tooltip_description = '服务描述';
+ readonly services_form_tooltip_name = 'The service name.';
+ readonly services_form_tooltip_description = 'The service description.';
  readonly services_form_tooltip_responseType = 'Defines how CAS should respond to requests for this service.';
- readonly services_form_tooltip_type = '适用于 CAS 客户端的所有内容也适用于 OAuth 客户端，但 OAuth 客户端还有一些额外的设置。';
+ readonly services_form_tooltip_type = 'Everything that applies to a CAS client applies to an OAuth client too, but OAuth clients have a few more extra settings.';
  readonly services_form_tooltip_casClients = 'List any known CAS Clients used by this service.(mod_auth_cas...)';
  readonly services_form_tooltip_renewalDate = 'This is the date by which the service will need to verified active by the service contacts.';
  readonly services_form_tooltip_oauthClientSecret = 'Secret key for this OAuth client. Only applies to OAuth service types.';
  readonly services_form_tooltip_oauthClientId = 'OAuth client id for this OAuth client. Only applies to OAuth service types.';
- readonly services_form_tooltip_oauthShowSecret = '启用以显示您的 OAuth 客户端密码';
- readonly services_form_tooltip_oauthBypass = '表示在访问服务应用程序之前是否应显示 OAuth 确认屏幕';
- readonly services_form_tooltip_oauthRefreshToken = '表示是否应使用此 OAuth 客户端的访问令牌生成刷新令牌';
- readonly services_form_tooltip_oauthJsonFormat = '指示访问令牌响应应采用 JSON 格式还是纯文本格式';
+ readonly services_form_tooltip_oauthShowSecret = 'Enable to show your OAuth Client Secret.';
+ readonly services_form_tooltip_oauthBypass = 'Indicates whether the OAuth confirmation screen should be displayed before accessing the service application.';
+ readonly services_form_tooltip_oauthRefreshToken = 'Indicates whether a refresh token should be generated with the access token for this OAuth client';
+ readonly services_form_tooltip_oauthJsonFormat = 'Indicates whether the access token response should be in JSON format or in plain text';
 
-  readonly services_form_tooltip_oidcClientSecret = 'Secret key for this OIDC client. Only applies to OIDC service types.';
-  readonly services_form_tooltip_oidcClientId = 'OAuth client id for this OIDC client. Only applies to OIDC service types.';
-  readonly services_form_tooltip_oidcShowSecret = 'Enable to show your OIDC Client Secret.';
-  readonly services_form_tooltip_oidcBypass = 'Indicates whether the OIDC confirmation screen should be displayed before accessing the service application.';
-  readonly services_form_tooltip_oidcRefreshToken = 'Indicates whether a refresh token should be generated with the access token for this OIDC client';
-  readonly services_form_tooltip_oidcJsonFormat = 'Indicates whether the access token response should be in JSON format or in plain text';
+ readonly services_form_tooltip_oidcClientSecret = 'Secret key for this OIDC client. Only applies to OIDC service types.';
+ readonly services_form_tooltip_oidcClientId = 'OAuth client id for this OIDC client. Only applies to OIDC service types.';
+ readonly services_form_tooltip_oidcShowSecret = 'Enable to show your OIDC Client Secret.';
+ readonly services_form_tooltip_oidcBypass = 'Indicates whether the OIDC confirmation screen should be displayed before accessing the service application.';
+ readonly services_form_tooltip_oidcRefreshToken = 'Indicates whether a refresh token should be generated with the access token for this OIDC client';
+ readonly services_form_tooltip_oidcJsonFormat = 'Indicates whether the access token response should be in JSON format or in plain text';
 
- readonly services_form_tooltip_theme = '表示当此服务请求身份验证时应应用于 CAS 的主题标识。 有效值是在 CAS 部署中配置的主题名称、REST 端点或 groovy 文件位置。';
+ readonly services_form_tooltip_theme = 'A token that represents the theme that should be applied to CAS when this service asks for authentication.  Valid values are a theme name configured in the CAS deployment, a REST endpoint or a groovy file location.';
  readonly services_form_tooltip_evalOrder = 'Determines how CAS should load, sort and evaluate services per this numeric order.';
  readonly services_form_tooltip_requiredHandlers = 'Collection of authentication handler ids defined in the CAS server configuration ' +
-    'that indicate the set of authentication handlers that must successfully execute before access to this service can be granted.';
+     'that indicate the set of authentication handlers that must successfully execute before access to this service can be granted.';
  readonly services_form_tooltip_requiresDuo = 'Setting to true will require Duo authentication for this service.';
  readonly services_form_tooltip_logoutUrl = 'Url where logout requests will be sent to, for this service.';
  readonly services_form_tooltip_informationUrl = 'Url that describes help information and guides for this service.';
@@ -288,14 +287,14 @@ export class Messages {
  readonly services_form_tooltip_uap_saltSetting = 'The salt used for anonymous id generation.';
  readonly services_form_tooltip_uap_usernameAttribute = 'Username attribute used to return back to the service as the identifier.';
  readonly services_form_tooltip_pubKey_location = 'The location to the public key file used to authenticate and sign the CAS response. ' +
-    'This is specifically used to encrypt and sign the credential and the proxy granting ticket returned directly in the CAS validation ' +
-    'response, provided the service is authorized to release those attributes.'
+     'This is specifically used to encrypt and sign the credential and the proxy granting ticket returned directly in the CAS validation ' +
+     'response, provided the service is authorized to release those attributes.'
  readonly services_form_tooltip_pubKey_algorithm = 'Represents a public key for a CAS registered service, used to encrypt credentials, proxy granting ticket ids for release.';
  readonly services_form_tooltip_proxyPolicy_regex = 'Matches the proxy callback url against a regex pattern. A successful match will authorize proxy authentication. ';
  readonly services_form_tooltip_attrRelease_excludeDefault = 'Indicates whether global and default attributes set to release to all applications ' +
-    'should be excluded for release for this specific application.'
+     'should be excluded for release for this specific application.'
  readonly services_form_tooltip_attrRelease_attrFilter = 'A regex pattern used to filter attributes based on their values only. ' +
-    'Values that successfully pass the filter will be available for release to the application.'
+     'Values that successfully pass the filter will be available for release to the application.'
  readonly services_form_tooltip_attrRelease_attrFilter_excludeUnmapped = 'Indicates whether unmapped attributes should be removed from the final bundle.';
  readonly services_form_tooltip_attrRelease_attrFilter_completeMatch = 'Indicates whether pattern-matching should execute over the entire value region';
  readonly services_form_tooltip_attrRelease_attrFilter_scripted = 'This field can accept either an inline groovy script that will be executed or a location of an external script file that will be loaded and executed.'
@@ -317,7 +316,7 @@ export class Messages {
  readonly services_form_tooltip_attrRelease_entityAttributeFormat = 'Format description for the entity attribute.  This field is optional'
  readonly services_form_tooltip_sas_starttime = 'Determines the starting date/time from which service access is allowed.';
  readonly services_form_tooltip_sas_endtime = 'Determines the ending date/time from which service access is allowed.';
- readonly services_form_tooltip_sas_casEnabled = '决定 CAS 是否授权访问此服务。';
+ readonly services_form_tooltip_sas_casEnabled = 'Decides whether access to this service is authorized by CAS.';
  readonly services_form_tooltip_sas_ssoEnabled = 'Decides whether this service is allowed to participate in SSO.';
  readonly services_form_tooltip_sas_requireAll = 'Decides whether all attributes AND corresponding values should be evaluated before access can be granted. If left unchecked, the first successful match on attribute name and value will allow access.';
  readonly services_form_tooltip_sas_requiredAttr = 'These are a set of attributes along with their values that decide whether access to this service can be granted. To configure, only provide values for attributes you care about, and leave the rest blank.';
@@ -328,7 +327,7 @@ export class Messages {
  readonly services_form_tooltip_sas_selecttype = 'Access strategy type';
  readonly services_form_tooltip_sas_authorizedCodes = 'Acceptable HTTP codes before granting access to this service.';
  readonly services_form_tooltip_sas_grouper = 'This access strategy attempts to locate Grouper groups for the CAS principal. The groups returned by ' +
-    'Grouper are collected as CAS attributes and examined against the list of required attributes for service access.'
+     'Grouper are collected as CAS attributes and examined against the list of required attributes for service access.'
  readonly services_form_tooltip_sas_surrogate_enabled = 'Determines whether this service is allowed to use surrogate authentication.';
  readonly services_form_tooltip_sas_surrogate_ssoEnabled = 'Determines whether a Surrogate authentication should participate in SSO';
  readonly services_form_tooltip_sas_surrogate_requiredAttributes = 'List of attributes and values that must be present for the primary user in order to allow surrogate authentication';
@@ -345,9 +344,9 @@ export class Messages {
  readonly services_form_tooltip_saml_metadata_location = 'Metadata location for this particular service provider.';
  readonly services_form_tooltip_saml_metadata_maximumvalidity = 'Indicates how long should metadata be considered valid.';
  readonly services_form_tooltip_saml_authenticationcontextclass = 'The authentication context class that may be passed to the service provider. If ' +
-    'none is defined here forcefully, metadata will be consulted instead.';
+     'none is defined here forcefully, metadata will be consulted instead.';
  readonly services_form_tooltip_saml_metadata_signaturepublickeylocation = 'Location of the metadata signing public key so its authenticity can be ' +
-    'verified.';
+     'verified.';
  readonly services_form_tooltip_saml_signassertions = 'Sign Assertions';
  readonly services_form_tooltip_saml_signresponses = 'Sign Responses';
  readonly services_form_tooltip_saml_encryptassertions = 'Encrypt Assertions';
@@ -383,42 +382,42 @@ export class Messages {
  readonly services_form_tooltip_expirationPolicy_notifyWhenDeleted = 'Notifies contacts of the application via email or text, assuming valid contacts with email addresses or phone numbers are defined and CAS is configured to send email messages or SMS notifications. The notification is only sent if the application is expired and is about to be deleted from the registry.';
 
  readonly services_form_tooltip_attrRelease_principleAttRepo_cached_mergeStrategy = 'Decides how attributes that are retrieved from the cache ' +
-    'should be merged into the existing attribute repository. Attributes may be replaced, ignored or contain multiple ' +
-    'values as a result of the merge action.';
-  readonly management_services_service_noAction = 'No further action is required.';
+     'should be merged into the existing attribute repository. Attributes may be replaced, ignored or contain multiple ' +
+     'values as a result of the merge action.';
+ readonly management_services_service_noAction = 'No further action is required.';
 
-  readonly screen_unavailable_heading = 'The CAS management webapp is unavailable. ';
-  readonly screen_unavailable_message = 'There was an error trying to complete your request. Please notify your support desk or try again.';
+ readonly screen_unavailable_heading = 'The CAS management webapp is unavailable. ';
+ readonly screen_unavailable_message = 'There was an error trying to complete your request. Please notify your support desk or try again.';
 
-  readonly footer_links = 'Links to CAS Resources:';
-  readonly footer_homePage = 'Home Page';
-  readonly footer_wiki = 'Wiki';
-  readonly footer_issueTracker = 'Issue Tracker';
-  readonly footer_mailingLists = 'Mailing Lists';
-  readonly footer_copyright = 'Copyright &copy; 2005 - 2017 Apereo, Inc. All rights reserved.';
-  readonly footer_poweredBy = 'Powered by <a href=\'http://www.apereo.org/cas\'>Apereo Central Authentication Service {0}</a>';
+ readonly footer_links = 'Links to CAS Resources:';
+ readonly footer_homePage = 'Home Page';
+ readonly footer_wiki = 'Wiki';
+ readonly footer_issueTracker = 'Issue Tracker';
+ readonly footer_mailingLists = 'Mailing Lists';
+ readonly footer_copyright = 'Copyright &copy; 2005 - 2017 Apereo, Inc. All rights reserved.';
+ readonly footer_poweredBy = 'Powered by <a href=\'http://www.apereo.org/cas\'>Apereo Central Authentication Service {0}</a>';
 
-  readonly services_form_label_canonicalizationMode = 'cononicalizationMode';
-  readonly services_form_label_attrRelease_policies_patternMatching = 'Pattern Matching';
-  readonly services_form_label_attrRelease_policies_releaseIncommon = 'InCommon';
+ readonly services_form_label_canonicalizationMode = 'cononicalizationMode';
+ readonly services_form_label_attrRelease_policies_patternMatching = 'Pattern Matching';
+ readonly services_form_label_attrRelease_policies_releaseIncommon = 'InCommon';
 
-  readonly services_form_label_wsfed_realm = 'Realm';
-  readonly services_form_label_wsfed_appliesTo = 'appliesTo'
-  readonly services_form_label_wsfed_wsFederationOnly = 'WS Federation only';
+ readonly services_form_label_wsfed_realm = 'Realm';
+ readonly services_form_label_wsfed_appliesTo = 'appliesTo'
+ readonly services_form_label_wsfed_wsFederationOnly = 'WS Federation only';
 
-  readonly services_form_header_wsfedOptions = 'WS Federation';
-  readonly services_form_header_nameId = 'Name ID Selection';
-  readonly services_form_header_nameId_name = 'Name';
-  readonly services_form_header_nameId_value = 'Value';
+ readonly services_form_header_wsfedOptions = 'WS Federation';
+ readonly services_form_header_nameId = 'Name ID Selection';
+ readonly services_form_header_nameId_name = 'Name';
+ readonly services_form_header_nameId_value = 'Value';
 
-  readonly services_form_tooltip_uap_canonicalizationMode = 'canonicalizationMode tooltip';
+ readonly services_form_tooltip_uap_canonicalizationMode = 'canonicalizationMode tooltip';
 
-  readonly services_form_tooltip_attrRelease_policies_patternMatching = 'In the event that an aggregate is defined containing multiple entity ids, the below attribute release policy may be used to release a collection of allowed attributes to entity ids grouped together by a regular expression pattern.';
-  readonly services_form_tooltip_attrRelease_policies_releaseInCommon = 'Release the attribute bundles needed for InCommon\'s Research and Scholarship service providers?'
+ readonly services_form_tooltip_attrRelease_policies_patternMatching = 'In the event that an aggregate is defined containing multiple entity ids, the below attribute release policy may be used to release a collection of allowed attributes to entity ids grouped together by a regular expression pattern.';
+ readonly services_form_tooltip_attrRelease_policies_releaseInCommon = 'Release the attribute bundles needed for InCommon\'s Research and Scholarship service providers?'
 
-  readonly services_form_tooltip_wsfed_realm = 'The realm identifier of the application, identified via the wtrealm parameter. This needs to match the realm defined for the identity provider. By default it’s set to the realm defined for the CAS identity provider.';
-  readonly services_form_tooltip_wsfed_appliesTo = 'Controls to whom security tokens apply. Defaults to the realm';
+ readonly services_form_tooltip_wsfed_realm = 'The realm identifier of the application, identified via the wtrealm parameter. This needs to match the realm defined for the identity provider. By default it’s set to the realm defined for the CAS identity provider.';
+ readonly services_form_tooltip_wsfed_appliesTo = 'Controls to whom security tokens apply. Defaults to the realm';
 
-  readonly services_form_label_uap_canonicalizationMode = 'Canonicalization Mode';
+ readonly services_form_label_uap_canonicalizationMode = 'Canonicalization Mode';
 
 }

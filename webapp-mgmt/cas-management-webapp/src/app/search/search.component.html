@@ -16,9 +16,9 @@
 <div style="display: flex; flex-direction: column;margin-right:10px;margin-left:10px;">
   <div style="display: flex; flex-direction: row">
     <mat-form-field floatLabel="never" style="flex: 0 1 500px; margin-left: 10px">
-      <input #searchText matInput placeholder="Enter text to find services">
+      <input #searchText matInput placeholder="输入名称或描述来查找服务">
     </mat-form-field>
-    <button mat-button (click)="doSearch(searchText.value)">Search</button>
+    <button mat-button (click)="doSearch(searchText.value)">查询</button>
   </div>
 </div>
 

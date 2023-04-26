@@ -42,7 +42,8 @@ export class PoliciesComponent implements OnInit {
   type: Type;
   TYPE = Type;
   types = [Type.SCRIPT, Type.GROOVY, Type.RETURN_ALL, Type.DENY_ALL, Type.RETURN_ALLOWED, Type.RETURN_MAPPED, Type.RESTFUL];
-  display = ['Script Engine', 'Groovy Script', 'Return All', 'Deny All', 'Return Allowed', 'Return Mapped', 'Return Restful'];
+  // display = ['Script Engine', 'Groovy Script', 'Return All', 'Deny All', 'Return Allowed', 'Return Mapped', 'Return Restful'];
+  display = ['Script Engine', 'Groovy Script', '返回所有', 'Deny All', 'Return Allowed', 'Return Mapped', 'Return Restful'];
   isSaml: boolean;
 
   constructor(public messages: Messages,
