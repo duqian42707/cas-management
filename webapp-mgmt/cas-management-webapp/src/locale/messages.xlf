@@ -2,743 +2,1709 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="06810c1cf1fdad66c07d5bc0f4bcb066068700ad" datatype="html">
+      <trans-unit id="a9a1f66b195cd9ed76731fa2621be68929330e77" datatype="html">
         <source>
-      <x id="INTERPOLATION"/>
+        Domains
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/domains/domains.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5c65826c6dff6af983cb3f696296e400cf9fc961" datatype="html">
+        <source>
+         
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/domains/domains.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7dd28b8f950d00ffacf5fcaa6aa3d0ab4ff92f32" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.management_services_table_button_edit }}"/>
     </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/delete/delete.component.ts</context>
+          <context context-type="sourcefile">app/domains/domains.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/search/search.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+        <note priority="1" from="description">management.services.table.button.edit</note>
+      </trans-unit>
+      <trans-unit id="912d1efda926db55fe8ea95dce3e2cf65eaccac0" datatype="html">
+        <source>
+      Are you still there?
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/timeout/timeout.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68b5facb2812c9cdb2af88d2b2aae4903e4532e4" datatype="html">
+        <source>
+    Your session is about to expire.  Click OK to continue working or Logout to ext CAS Management.  You will automatically be logged out in 30 seconds.
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/timeout/timeout.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html">
+        <source>Logout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/timeout/timeout.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e6c975ebea8b5f8b120905ca7acf9f8edf59d8e" datatype="html">
+        <source>OK</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/timeout/timeout.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/unknown/unknown.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a5aabd22e6acbb9ca1bc6cacd8bc3a4be042f4ee" datatype="html">
+        <source>
+      Unknown Error
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/unknown/unknown.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d90b8a59cd9bfb47443ce1f578ce079b862c553d" datatype="html">
+        <source>
+    An unknown error has been encountered and the application is not able to recover.  Please refresh your browser to continue.
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/unknown/unknown.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9c8ff1452407e4036ec56dbbde69b4b0f8f3d451" datatype="html">
+        <source>
+        View JSON
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/json/json.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cbdab0f8bb97f558a5bcd661c1de08357eadfe6c" datatype="html">
+        <source>
+        View Diff
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/diff/diff.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8d6ffe14e44d998d5af4c6e9524e6b21d6ae7fb5" datatype="html">
+        <source>
+      Publish
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/publish/publish.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">management.services.table.modal.commit.header</note>
+      </trans-unit>
+      <trans-unit id="60606830d16d149dafa37e716c2ea30da3cfbf4b" datatype="html">
+        <source>The following commits will be published to the CAS Servers:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/publish/publish.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7b35c384aecd25a516200d6921836374613dfe7" datatype="html">
+        <source>Cancel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/publish/publish.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit/commit.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/delete/delete.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/revert/revert.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/accept/accept.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/reject/reject.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="223aae0477f79f0bc4436c1c57619415f04cbbb3" datatype="html">
+        <source>Publish</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/publish/publish.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/controls/controls.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="09cc232522d34781ebc122d623ea4e177b7e5082" datatype="html">
+        <source>
+      Commit Changes
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit/commit.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9ba60905e1395780d56ca85a1f37e66fe7807b9e" datatype="html">
+        <source>
+      Submit Change Request
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit/commit.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a2def2a658778063ba11ea5f53bbbb33d0fcf347" datatype="html">
+        <source>Enter a message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit/commit.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/accept/accept.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/reject/reject.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2948dd38b816fdca48099de0bdc4350e21de95d5" datatype="html">
+        <source>
+            <x id="INTERPOLATION" equiv-text="{{ messages.management_services_table_modal_commit_listheader }}"/>
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit/commit.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">management.services.table.modal.commit.listheader</note>
+      </trans-unit>
+      <trans-unit id="fb76b9a61e0bdd4280c8a9e83fcc54262c2e8b77" datatype="html">
+        <source>Changes to be submitted:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit/commit.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71c77bb8cecdf11ec3eead24dd1ba506573fa9cd" datatype="html">
+        <source>Submit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit/commit.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/controls/controls.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c9039b1b13b3ef165b66b3c5d79f810ab1ebb050" datatype="html">
+        <source>Open</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/controls/controls.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a059709f71aa4c0ac219e160e78a738682ca6a36" datatype="html">
+        <source>Import</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/controls/controls.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ae2e0748d71d76a5be54476d83e33c59838d8e2f" datatype="html">
+        <source>
+        <x id="INTERPOLATION" equiv-text="{{ messages.services_form_button_cancel }}"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/controls/controls.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">services.form.button.cancel</note>
+      </trans-unit>
+      <trans-unit id="2fe43daf418ae074953fed3cf5230d2c0d8c1c30" datatype="html">
+        <source>
+            <x id="INTERPOLATION" equiv-text="{{ messages.services_form_button_save }}"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/controls/controls.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">services.form.button.save</note>
+      </trans-unit>
+      <trans-unit id="43f3656319e91a86db722451ce3b90b0d9d3924d" datatype="html">
+        <source>
+            <x id="INTERPOLATION" equiv-text="{{ messages.services_form_button_cancel }}"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/controls/controls.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">services.form.button.cancel</note>
+      </trans-unit>
+      <trans-unit id="587805e69e556e3a48a80d3a7aef5478b1c01a37" datatype="html">
+        <source>Commit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/controls/controls.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="06810c1cf1fdad66c07d5bc0f4bcb066068700ad" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{messages.management_services_table_modal_delete_header}}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/delete/delete.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
         <note priority="1" from="description">managemnet.services.table.modal.delete.header</note>
       </trans-unit>
       <trans-unit id="7613b07aac675aeed8321c31cbfffbfc2a1fcc16" datatype="html">
         <source>
-    <x id="INTERPOLATION"/>
+    <x id="INTERPOLATION" equiv-text="{{messages.management_services_table_modal_delete_msgPt1}}"/>
   </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/delete/delete.component.ts</context>
+          <context context-type="sourcefile">app/delete/delete.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
         <note priority="1" from="description">management.services.table.modal.delete.msgPt1</note>
       </trans-unit>
       <trans-unit id="a3cd47cb3f23cc561ff3d1df0d9a1f5642e42665" datatype="html">
         <source>
-          <x id="INTERPOLATION"/>
+          <x id="INTERPOLATION" equiv-text="{{messages.management_services_table_modal_delete_msgPt2}}"/>
   </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/delete/delete.component.ts</context>
+          <context context-type="sourcefile">app/delete/delete.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
         <note priority="1" from="description">management.services.table.modal.delete.msgPt2</note>
       </trans-unit>
-      <trans-unit id="d7b35c384aecd25a516200d6921836374613dfe7" datatype="html">
-        <source>Cancel</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/delete/delete.component.ts</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="826b25211922a1b46436589233cb6f1a163d89b7" datatype="html">
         <source>Delete</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/delete/delete.component.ts</context>
+          <context context-type="sourcefile">app/delete/delete.component.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="bd1c63449b8fe332f203f6eb08185114b391b49e" datatype="html">
+      <trans-unit id="7609502e9b1878320c51e68bd495686efa926f19" datatype="html">
         <source>
-      Manage Services
-    </source>
+        Search Results
+      </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/services/services.component.ts</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="sourcefile">app/search/search.component.html</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5f56bb0e59479a014a2fe2d033e6098f2ed942a8" datatype="html">
+      <trans-unit id="e24af275dd66061c24ec75da2a03317edca4d954" datatype="html">
         <source>
-            <x id="INTERPOLATION"/>
-          </source>
+           
+        </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/services/services.component.ts</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="sourcefile">app/search/search.component.html</context>
+          <context context-type="linenumber">30</context>
         </context-group>
-        <note priority="1" from="description">management.services.table.details.description</note>
-      </trans-unit>
-      <trans-unit id="c0c88097be6b5b4615be00a061b96c11ebe59e24" datatype="html">
-        <source>
-            <x id="INTERPOLATION"/>
-          </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/services/services.component.ts</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="sourcefile">app/local-changes/local-changes.component.html</context>
+          <context context-type="linenumber">21</context>
         </context-group>
-        <note priority="1" from="description">management.services.table.details.proxyPolicy</note>
-      </trans-unit>
-      <trans-unit id="252351c826bc5ceb5d6612d5302926db0497b2ea" datatype="html">
-        <source>
-            <x id="INTERPOLATION"/>
-          </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/services/services.component.ts</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="sourcefile">app/repo-history/repo-history.component.html</context>
+          <context context-type="linenumber">56</context>
         </context-group>
-        <note priority="1" from="description">managemnt.services.table.details.attrPolicy</note>
-      </trans-unit>
-      <trans-unit id="7e2d165a1c6a709a5fd741db86e6a0b9cfd0afa4" datatype="html">
-        <source>
-            <x id="INTERPOLATION"/>
-          </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/services/services.component.ts</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">22</context>
         </context-group>
-        <note priority="1" from="description">management.services.table.details.releaseCred</note>
-      </trans-unit>
-      <trans-unit id="e10831945179a72a44bbe1436b33c60b84092c6f" datatype="html">
-        <source>
-            <x id="INTERPOLATION"/>
-          </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/services/services.component.ts</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="sourcefile">app/changes/changes.component.html</context>
+          <context context-type="linenumber">43</context>
         </context-group>
-        <note priority="1" from="description">management.services.table.details.releaseProxy</note>
-      </trans-unit>
-      <trans-unit id="7dd28b8f950d00ffacf5fcaa6aa3d0ab4ff92f32" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/services/services.component.ts</context>
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/submits/submits.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="81b97b8ea996ad1e4f9fca8415021850214884b1" datatype="html">
+        <source>Status</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/search/search.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc7e9ce244026bb6007e82e04f4d1f6e909f28a3" datatype="html">
+        <source>
+          Name
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/search/search.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a350463794afd054aadd21fae4ca4311bcd114e8" datatype="html">
+        <source>
+          Service Url
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/search/search.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c7b9dabe8eae521d3c6f82a7a45af5549ed7c85f" datatype="html">
+        <source>
+          Description
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/search/search.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cd3e5eb61cad9aa3de5239af89e7b82110319fdc" datatype="html">
+        <source>YAML</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/search/search.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ad24bfc056ad2a41aa93fbfd75ec6765060606f" datatype="html">
+        <source>JSON</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/search/search.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="47d4d0d630fb480e6f7dd6eb684f15877e8db9f2" datatype="html">
+        <source>Revert</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/revert/revert.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/revert/revert.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/submits/submits.component.html</context>
           <context context-type="linenumber">76</context>
         </context-group>
-        <note priority="1" from="description">management.services.table.button.edit</note>
+      </trans-unit>
+      <trans-unit id="79135a1f76af603c4ad4be58dbdd7bda27f7f55f" datatype="html">
+        <source>Caution this action can not be undone and all local changes will be lost. Are you sure you want to proceed?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/revert/revert.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fbcc01f023afacb99587b82b47d716e126219ff7" datatype="html">
+        <source>
+      Accept Request
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/accept/accept.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc533520627cd3b27bdb1880e18a40ee7c262a44" datatype="html">
+        <source>Changes to be merged:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/accept/accept.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6fc5e65900ae1415d3170d5d2842f0dcae1b6645" datatype="html">
+        <source>Accept</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/accept/accept.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d323e03abab84553ccd77ab27fa2acaf74545e04" datatype="html">
+        <source>
+      Reject Request
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/reject/reject.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20c3d69c0b67a74df0aa3920485016b2080578f6" datatype="html">
+        <source>Reject</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/reject/reject.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e4951bed6b6fb3a37479bf79538a3f08d2c34a22" datatype="html">
+        <source>
+        Working Changes
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/local-changes/local-changes.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d011de95b9d877ed4fe585bdd10e9d3065ce0f28" datatype="html">
+        <source>
+          File
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/local-changes/local-changes.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/changes/changes.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0d72acf5b3f85eeb83129504533078aeace7f135" datatype="html">
+        <source>
+          Service Name
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/local-changes/local-changes.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3a3faee5ed9b787d62706aa59fce2981f397fbe" datatype="html">
+        <source>
+          Change Type
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/local-changes/local-changes.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f5285dc80ce21d44465d2847e348d80c03075a27" datatype="html">
+        <source>View Diff</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/local-changes/local-changes.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8b2a870a9a8b5a8734ca5e1883c45d58e2acb85d" datatype="html">
+        <source>
+        View Yaml
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/yaml/yaml.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d5a7404bac9fe96587eea204fafd00b2f7a6d70" datatype="html">
+        <source>
+        Import Service
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/import/import.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0a83d74152761e2774bce50572c09d953289fcd0" datatype="html">
+        <source>
+        History
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/repo-history/repo-history.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/history/history.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit-history/commit-history.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="93b8aab4d2f426cbf4e3b77d4c59475fc8616e3b" datatype="html">
+        <source>
+          Message
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/repo-history/repo-history.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/history/history.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/submits/submits.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="295f1923413a7de25599ae670404e084d08ab02c" datatype="html">
+        <source>
+          Id
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/repo-history/repo-history.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="499f27c0291d175936f394d0c6baec631afeafa0" datatype="html">
+        <source>
+          Time
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/repo-history/repo-history.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/history/history.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit-history/commit-history.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c23a4dbfbf5bb67d6a0249dbea2fe13819975f7b" datatype="html">
+        <source>View Changes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/repo-history/repo-history.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ea7b078a8bb84ed161b5289522e69acd8d9a65f" datatype="html">
+        <source>Reset to Here</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/repo-history/repo-history.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ffd5f2c6c615c4d0f94ad132940a1467a95e7e1" datatype="html">
+        <source>Domains</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="419d940613972cc3fae9c8ea0a4306dbf80616e5" datatype="html">
+        <source>Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="922b261e64872042f854ea1f3f21052b31be2597" datatype="html">
+        <source>
+          <x id="INTERPOLATION" equiv-text="{{ messages.management_services_header_navbar_navitem_search }}"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">management.services.header.navbar.navitem.search</note>
+      </trans-unit>
+      <trans-unit id="6f44580626b9a84bcc8b15800a7808ca5a300df5" datatype="html">
+        <source>Pull Requests</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="75d7edc597abb6156dc452e03706a5217c4796c5" datatype="html">
+        <source>Submit Requests</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="17cc544a03618f602e34e400741c3276e5c92f00" datatype="html">
+        <source>
+        <x id="INTERPOLATION" equiv-text="{{ messages.management_services_header_navbar_navitem_addNewService }}"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <note priority="1" from="description">managment.services.header.navitem.addNewService</note>
+      </trans-unit>
+      <trans-unit id="d6a28fe147ba2d0f16dd7f9a377783213f7bcf03" datatype="html">
+        <source>Import Service</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48e0a1727b359eca62c06a97feabc0eed8f39fec" datatype="html">
+        <source>Working Changes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0012706153bcbfdd0b8eafae8a34bc2b509b5749" datatype="html">
+        <source>Synchronize</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="efac3af0b32e953279c25b6519cae256811e0fe8" datatype="html">
+        <source>History</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="681592063691cb787a8ff495301651def061e4a0" datatype="html">
+        <source>
+          <x id="INTERPOLATION" equiv-text="{{ messages.management_services_header_navbar_navitem_logout }}"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <note priority="1" from="description">management.services.header.navbar.navitem.logout</note>
+      </trans-unit>
+      <trans-unit id="594f071277904254e7e10326d4f78ef4a9632835" datatype="html">
+        <source>
+                Management
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/navigation/navigation.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+        <note priority="1" from="description">management.services.header.apptitle</note>
+      </trans-unit>
+      <trans-unit id="0b8783d16c60fc5f1cee023061ecd98d5c488213" datatype="html">
+        <source>
+        Manage Services - <x id="INTERPOLATION" equiv-text="{{ domain }}"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="aeee11bb0999305e75e19108a097adef5fb817ea" datatype="html">
         <source>
-      <x id="INTERPOLATION"/>
+      <x id="INTERPOLATION" equiv-text="{{ messages.management_services_table_button_duplicate }}"/>
     </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/services/services.component.ts</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">104</context>
         </context-group>
         <note priority="1" from="description">management.services.table.button.duplicate</note>
       </trans-unit>
       <trans-unit id="a9880d815fbb4fc83943e1e4719708984ef2f3e5" datatype="html">
         <source>
-      <x id="INTERPOLATION"/>
+      <x id="INTERPOLATION" equiv-text="{{ messages.management_services_table_button_delete }}"/>
     </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/services/services.component.ts</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="sourcefile">app/services/services.component.html</context>
+          <context context-type="linenumber">110</context>
         </context-group>
         <note priority="1" from="description">management.services.table.button.delete</note>
       </trans-unit>
-      <trans-unit id="4f8b2bb476981727ab34ed40fde1218361f92c45" datatype="html">
-        <source>Details</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/services/services.component.ts</context>
-          <context context-type="linenumber">94</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="26da6ffa7ff4e1b452c47326c8b79ef613c533a5" datatype="html">
+      <trans-unit id="29e141dd2b707c51d6a4bacac3154b86ff8a92bc" datatype="html">
         <source>
-              <x id="INTERPOLATION"/>
-            </source>
+          Committer
+        </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/header/header.component.ts</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="sourcefile">app/history/history.component.html</context>
+          <context context-type="linenumber">32</context>
         </context-group>
-        <note priority="1" from="description">management.services.header.apptitle</note>
-      </trans-unit>
-      <trans-unit id="039e51efa777662491aeb6fdbe6fd4477eaaae58" datatype="html">
-        <source>Manage Services</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/header/header.component.ts</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="sourcefile">app/commit-history/commit-history.component.html</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5513fbc626a34941178e9afb6865c0452cb0afc9" datatype="html">
+      <trans-unit id="7f5ca0f76e3d0e7f3a775fa99ad49c592ac46e10" datatype="html">
         <source>
-                <x id="INTERPOLATION"/>
-              </source>
+            
+        </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/header/header.component.ts</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="sourcefile">app/history/history.component.html</context>
+          <context context-type="linenumber">54</context>
         </context-group>
-        <note priority="1" from="description">managment.services.header.navitem.addNewService</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit-history/commit-history.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="cf2c9a4234352eea4f0062f7185792b74b54e6a3" datatype="html">
-        <source>
-                <x id="INTERPOLATION"/>
-              </source>
+      <trans-unit id="82369f51c624a74e5d1a35709c28ccfbc8711987" datatype="html">
+        <source>View Version</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/header/header.component.ts</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="sourcefile">app/history/history.component.html</context>
+          <context context-type="linenumber">76</context>
         </context-group>
-        <note priority="1" from="description">management.services.header.navbar.navitem.logout</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit-history/commit-history.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="98a3a9e672fba00450fb26c50c9bbe17aaee65d8" datatype="html">
+        <source>Compare to Current</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/history/history.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit-history/commit-history.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e17ae51bcc26ee19c42a1c25a50a5f46afaa82ba" datatype="html">
+        <source>Show Diff</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/history/history.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit-history/commit-history.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5eeeb379ac5e27cbb87fe98f248ed118732c0c51" datatype="html">
+        <source>Checkout Version</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/history/history.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit-history/commit-history.component.html</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1f11419f62a512abf635059acdc1e2f89591a1f8" datatype="html">
+        <source>
+        View Changes
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/changes/changes.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="22f4ed0fe496ca04877a25f2b3e3ef9a3184e907" datatype="html">
+        <source>
+          Change
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/changes/changes.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit-history/commit-history.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6829218544e108e152f5fa72cb79c4ccb82e0d06" datatype="html">
+        <source>View</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/changes/changes.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a88d811c7e05a94901740fcee4bfb896fd41a18b" datatype="html">
+        <source>Diff</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/changes/changes.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="be82364fa6687cfaa71387d542c81f7f39277daf" datatype="html">
+        <source>
+        Pull Requests
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e6a27066251ca1e04c5be86ad758380856df2506" datatype="html">
+        <source>Pending</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7823909fb1d8d313382f6f4bd842f1a7ef6f08d1" datatype="html">
+        <source>Accepted</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="820fe4d0d32e56284a97122940f50ee4e0af1799" datatype="html">
+        <source>Rejected</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9f991be10318a6cda09596a6289ac78b6a2a4a98" datatype="html">
+        <source>
+          Branch Name
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/submits/submits.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f21ba4266d3045d262cb608a6f5961e21ff19ec" datatype="html">
+        <source>
+          Status
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/submits/submits.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8770fb673adfa224109d334bee7e15227ec25d2d" datatype="html">
+        <source>Add Note</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pull/pull.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2140306b4f44edc30cfcc1c566821231922e1102" datatype="html">
+        <source>
+        Submits
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/submits/submits.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d93be50445298f3a851313f14aa9c77193d89eec" datatype="html">
+        <source>
+        Notes
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/notes/notes.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ce1425fd6c19c57398f9bfca37a7e881645e9d5" datatype="html">
+        <source>
+            <x id="INTERPOLATION" equiv-text="{{ messages.services_form_header_page_editService }}"/>
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">services.form.header.page.editService</note>
+      </trans-unit>
+      <trans-unit id="427b899e64b151c43a43833c034fc3b254d3dc1c" datatype="html">
+        <source>View Service</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5f8884c8fa3ea915eeef401b0106e10c3e0bfe74" datatype="html">
         <source>Basics</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="479362b15e64153837e114f9b8a5361932b6fc96" datatype="html">
         <source>SAML2 SP</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7925efbb90771fc442a1df86291edce4f70679f3" datatype="html">
         <source>OAuth2</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="efc3c8a0267a04acabbd191aaf5b58e7eb4d3519" datatype="html">
         <source>OpenID Connect</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="71a3b447b5aefaea06b5c49f6251296e23d4e8bd" datatype="html">
         <source>WS Federation</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html">
-        <source>Logout</source>
+      <trans-unit id="9b475bb63675494482effde989c7f1f18c232620" datatype="html">
+        <source>Contacts</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/tab-contacts/tab-contacts.component.html</context>
+          <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6824d2b8512331d9e6eb51b36d3199b1a831df58" datatype="html">
         <source>Access Strategy</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b385b9643f56ff472aa715b59aab4c350fd8f86" datatype="html">
+        <source>Expiration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8a4050ec0c3e1b35be22439dfe6b622c8ac7ebe6" datatype="html">
         <source>Multifactor Authentication</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">68</context>
         </context-group>
       </trans-unit>
       <trans-unit id="44179f1c84135bc844104d175463b07c97c24241" datatype="html">
         <source>Proxy Authentication</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9b26fba4c585d885257897d45e8f97512761552c" datatype="html">
         <source>Username Attribute</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cdd0b0f9b56729886e34390e77b6d152f7f16062" datatype="html">
         <source>Attribute Release</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">54</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f0b2261a018a4b386f0688ac69ff89d4a29848f8" datatype="html">
         <source>Properties</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/form.component.ts</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="sourcefile">app/form/form.component.html</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="b13c3167aa7ade16fc4403cc7c734b416f9987d3" datatype="html">
+      <trans-unit id="a962cf91d6b34d0ffe97473774930168f628b07b" datatype="html">
         <source>
-          <x id="INTERPOLATION"/>
+            <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_sas_ssoEnabled }}"/>
         </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/access-strategy/access-strategy.component.ts</context>
-          <context context-type="linenumber">8</context>
+          <context context-type="sourcefile">app/form/access-strategy/access-strategy.component.html</context>
+          <context context-type="linenumber">3</context>
         </context-group>
         <note priority="1" from="description">services.form.label.sas.ssoEnabled</note>
       </trans-unit>
-      <trans-unit id="1841ef51562d2500fd95914069daf17dc60e48e7" datatype="html">
+      <trans-unit id="55d7e0365e5ff4e47db452bf8b5fa33eccace56c" datatype="html">
         <source>
-          <x id="INTERPOLATION"/>
+            <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_sas_requireAll }}"/>
         </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/access-strategy/access-strategy.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="sourcefile">app/form/access-strategy/access-strategy.component.html</context>
+          <context context-type="linenumber">18</context>
         </context-group>
         <note priority="1" from="description">services.form.label.sas.requireAll</note>
       </trans-unit>
-      <trans-unit id="b6654b2827c04991520714907836b232a745fea9" datatype="html">
+      <trans-unit id="18ce12d5b64b1896c1d1e4909db6ce71eb43b8e8" datatype="html">
         <source>
-          <x id="INTERPOLATION"/>
+            <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_sas_caseinsensitive }}"/>
         </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/access-strategy/access-strategy.component.ts</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="sourcefile">app/form/access-strategy/required/required.component.html</context>
+          <context context-type="linenumber">6</context>
         </context-group>
         <note priority="1" from="description">services.form.label.sas.caseinsensitive</note>
       </trans-unit>
-      <trans-unit id="d93ad3467d5c2817e4b5fe14f98ec03335024f01" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/attribute-release/attribute-release.component.ts</context>
-          <context context-type="linenumber">47</context>
-        </context-group>
-        <note priority="1" from="description">management.services.service.noAction</note>
-      </trans-unit>
-      <trans-unit id="6fc215d0f6fbc219efa26ab12a856696df1c6abf" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/enabled/enabled.component.ts</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.sas.casEnabled</note>
-      </trans-unit>
-      <trans-unit id="8f97658512ed645cf4f059d7e5a6e1c98e8302f6" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/multiauthpane/multiauthpane.component.ts</context>
-          <context context-type="linenumber">59</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.multiauth.bypassenabled</note>
-      </trans-unit>
-      <trans-unit id="14d582f735db0ad9a82ed9671a80afaaf78bda9d" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/oauthclient/oauthclient.component.ts</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.oauthShowSecret</note>
-      </trans-unit>
-      <trans-unit id="d90f52ef806002009d034b9539f2c8cf03cda0c0" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/oauthclient/oauthclient.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.oauthBypass</note>
-      </trans-unit>
-      <trans-unit id="bd23514bae1a28a0b8023b8f065f33c4d4d9470d" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/oauthclient/oauthclient.component.ts</context>
-          <context context-type="linenumber">58</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.oauthRefreshToken</note>
-      </trans-unit>
-      <trans-unit id="170846bc8fee1cb0f76767ab2ae2962b96fb0c27" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/oauthclient/oauthclient.component.ts</context>
-          <context context-type="linenumber">70</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.oauthJsonFormat</note>
-      </trans-unit>
-      <trans-unit id="7bb2850a774c7afb0bc5021c9e9d45a9a6b8f91f" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/proxy/proxy.component.ts</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.proxyPolicy.refuse</note>
-      </trans-unit>
-      <trans-unit id="c01d341ff935aca0c448a18840fedf5a407024f2" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/proxy/proxy.component.ts</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.proxyPolicy.regex</note>
-      </trans-unit>
-      <trans-unit id="19858dfba2c4a2e568eb35a366f6686a9aaa73d3" datatype="html">
-        <source>
-    <x id="INTERPOLATION"/>
-  </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/proxy/proxy.component.ts</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/uidattrs/uidattrs.component.ts</context>
-          <context context-type="linenumber">24</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/attribute-release-policies/attribute-release-policies.component.ts</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/attribute-release-principal-repo/attribute-release-principal-repo.component.ts</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-        <note priority="1" from="description">management.services.service.noAction</note>
-      </trans-unit>
-      <trans-unit id="c296749d16fe11253ac958a3556fa4f58e59b899" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/samlclient/samlclient.component.ts</context>
-          <context context-type="linenumber">71</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.saml.signassertions</note>
-      </trans-unit>
-      <trans-unit id="a9e026fb044dca14c8f3c10db7dab23a7105bd3b" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/samlclient/samlclient.component.ts</context>
-          <context context-type="linenumber">83</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.saml.signresponses</note>
-      </trans-unit>
-      <trans-unit id="6caebdb55a5feaf478cd0a8337892c5cb86a3785" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/samlclient/samlclient.component.ts</context>
-          <context context-type="linenumber">95</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.saml.encryptassertions</note>
-      </trans-unit>
-      <trans-unit id="8c5805adf61a65a0afbcb3afbcf1f5c152794cc2" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/samlclient/samlclient.component.ts</context>
-          <context context-type="linenumber">107</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.saml.skipAssertionNameId</note>
-      </trans-unit>
-      <trans-unit id="22d4fbd0b23ee75d0afacda2f02a8e4428d0b2f8" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/samlclient/samlclient.component.ts</context>
-          <context context-type="linenumber">119</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.saml.skipInResponseTo</note>
-      </trans-unit>
-      <trans-unit id="86b1a5bdfb08edd2656485c7171f446423861ea8" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/samlclient/samlclient.component.ts</context>
-          <context context-type="linenumber">131</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.saml.skipNotOnOrAfter</note>
-      </trans-unit>
-      <trans-unit id="69c20f981a9a597c2a99e521c12f0991a661f01d" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/samlclient/samlclient.component.ts</context>
-          <context context-type="linenumber">143</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.saml.skipRecipient</note>
-      </trans-unit>
-      <trans-unit id="f481f2410fe8558d6eca14065aeda3cab6ebc8c3" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/samlclient/samlclient.component.ts</context>
-          <context context-type="linenumber">155</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.saml.skipNotBefore</note>
-      </trans-unit>
-      <trans-unit id="a273a2cb642e535dcb58e113014d93bf0aa5b972" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/samlclient/samlclient.component.ts</context>
-          <context context-type="linenumber">167</context>
-        </context-group>
-        <note priority="1" from="description">services.form.saml.removeEmptyEntities</note>
-      </trans-unit>
-      <trans-unit id="05763102c51a38f171123cb9e359e37f6ddb0aa4" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/samlclient/samlclient.component.ts</context>
-          <context context-type="linenumber">179</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.saml.removeRoleless</note>
-      </trans-unit>
-      <trans-unit id="394106d8563c179bcfe854dff960659057567085" datatype="html">
-        <source>
-        <x id="INTERPOLATION"/>
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/saveformtop/saveformtop.component.ts</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description">services.form.header.page.editService</note>
-      </trans-unit>
-      <trans-unit id="11340c9ff883a517b66dc1d9989509f8756f75bd" datatype="html">
-        <source>
-        <x id="INTERPOLATION"/>
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/saveformtop/saveformtop.component.ts</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-        <note priority="1" from="description">services.form.button.save</note>
-      </trans-unit>
-      <trans-unit id="ae2e0748d71d76a5be54476d83e33c59838d8e2f" datatype="html">
-        <source>
-        <x id="INTERPOLATION"/>
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/saveformtop/saveformtop.component.ts</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-        <note priority="1" from="description">services.form.button.cancel</note>
-      </trans-unit>
-      <trans-unit id="80f7fa14db004c13623e88ff98e410036d8b112f" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/uidattrs/uidattrs.component.ts</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.uap.default</note>
-      </trans-unit>
-      <trans-unit id="beba13c5e0611426201fc896bdf248214e4a846d" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/uidattrs/uidattrs.component.ts</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.uap.anon</note>
-      </trans-unit>
-      <trans-unit id="7f2b6fc57d6dda4e0c1c14c6124c5d8188ce041b" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/uidattrs/uidattrs.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.uap.principleAtt</note>
-      </trans-unit>
-      <trans-unit id="17a870fe5ba37d1aa58a5fd65bd88540d429bac3" datatype="html">
-        <source>
-        Encrypt Username
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/uidattrs/uidattrs.component.ts</context>
-          <context context-type="linenumber">59</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5b2cddc1399826332e64278089810e95609f1031" datatype="html">
-        <source>If checked the username attribute will be encrypted using the defined public key for the service</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/uidattrs/uidattrs.component.ts</context>
-          <context context-type="linenumber">65</context>
-        </context-group>
-        <note priority="1" from="description">encpytUsername</note>
-      </trans-unit>
-      <trans-unit id="ebb581596274058bdea20856c2ae5fe3b70232dd" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/attribute-release-checks/attribute-release-checks.component.ts</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.attrRelease.excludeDefault</note>
-      </trans-unit>
-      <trans-unit id="7461d7fbfcfb0950eac7462bce3284ac166ae3e1" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/attribute-release-checks/attribute-release-checks.component.ts</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.attrRelease.releaseCredPassword</note>
-      </trans-unit>
-      <trans-unit id="2bca81482d209823d8be86675dd71c65ca1abbc9" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/attribute-release-checks/attribute-release-checks.component.ts</context>
-          <context context-type="linenumber">27</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.attrRelease.releaseProxyTicket</note>
-      </trans-unit>
-      <trans-unit id="4d4088b26293b3241e22678aed4163710f7b2dd2" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/attribute-release-checks/attribute-release-checks.component.ts</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.attrRelease.releaseAuthenticationAttributes</note>
-      </trans-unit>
-      <trans-unit id="b1a653d28f174b40e6cefe71b1ba664e4783d4ea" datatype="html">
-        <source>
-        <x id="INTERPOLATION"/>
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/attribute-release-principal-repo/attribute-release-principal-repo.component.ts</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.attrRelease.principleAttRepo.default</note>
-      </trans-unit>
-      <trans-unit id="e881b69eada4d09f0f5b476ca5580af3bbfa9dbc" datatype="html">
-        <source>
-        <x id="INTERPOLATION"/>
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/attribute-release-principal-repo/attribute-release-principal-repo.component.ts</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.attrRelease.principleAttRepo.cached</note>
-      </trans-unit>
-      <trans-unit id="f2639a6d2462cf6215f8cb3efc0bcdc22e2bd565" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/wsfedattrrelpolocies/wsfedattrrelpolicies.component.ts</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.wsfed.wsFederationOnly</note>
-      </trans-unit>
-      <trans-unit id="8164a45782f286eebe4d23d5b810ccef4f127453" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/wsfedattrrelpolocies/wsfedattrrelpolicies.component.ts</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/mappedattributes/mappedattributes.component.ts</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.attrRelease.policies.sourceAttribute</note>
-      </trans-unit>
-      <trans-unit id="2cd1809c709fbc2eaf2ae56cf62cc47ff801e6d6" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/wsfedattrrelpolocies/wsfedattrrelpolicies.component.ts</context>
-          <context context-type="linenumber">23</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/mappedattributes/mappedattributes.component.ts</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.attrRelease.policies.casAttribute</note>
-      </trans-unit>
-      <trans-unit id="a851541a8e92c2eb86606b319485eab58a7fdd5f" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/oidcclient/oidcclient.component.ts</context>
-          <context context-type="linenumber">47</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.oidc.signToken</note>
-      </trans-unit>
-      <trans-unit id="4c6727995935713777552c21920630ce94f6765e" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/oidcclient/oidcclient.component.ts</context>
-          <context context-type="linenumber">59</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.oidc.implicit</note>
-      </trans-unit>
-      <trans-unit id="635e2e3e2bb71a9df6563ff28dae76ddaaa8ad51" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/oidcclient/oidcclient.component.ts</context>
-          <context context-type="linenumber">71</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.oidc.encrypt</note>
-      </trans-unit>
-      <trans-unit id="29df2a3d799f9ca80b019ed8e52632c7741c9b44" datatype="html">
-        <source>
-      <x id="INTERPOLATION"/>
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/form/attribute-release-consent/attribute-release-consent.component.ts</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <note priority="1" from="description">services.form.label.attrRelease.constent.enabled</note>
-      </trans-unit>
       <trans-unit id="0756607a35f15c0e80a88baa6e06707382bbe21e" datatype="html">
         <source>
-      <x id="INTERPOLATION"/>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_sas_surrogate_enabled }}"/>
     </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/access-strategy/surrogate/surrogate.component.ts</context>
+          <context context-type="sourcefile">app/form/access-strategy/surrogate/surrogate.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
         <note priority="1" from="description">services.form.label.sas.surrogate.enabled</note>
       </trans-unit>
       <trans-unit id="5992bdd01539e1cd709bea5b85ba56cf56891cd0" datatype="html">
         <source>
-    <x id="INTERPOLATION"/>
+    <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_sas_surrogate_requiredAttributes }}"/>
   </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/form/access-strategy/surrogate/surrogate.component.ts</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="sourcefile">app/form/access-strategy/surrogate/surrogate.component.html</context>
+          <context context-type="linenumber">17</context>
         </context-group>
         <note priority="1" from="description">services.form.label.sas.surrogate.requiredAttributes</note>
+      </trans-unit>
+      <trans-unit id="ebb581596274058bdea20856c2ae5fe3b70232dd" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_attrRelease_excludeDefault }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/attribute-release/checks/checks.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.attrRelease.excludeDefault</note>
+      </trans-unit>
+      <trans-unit id="7461d7fbfcfb0950eac7462bce3284ac166ae3e1" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_attrRelease_releaseCredPassword }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/attribute-release/checks/checks.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.attrRelease.releaseCredPassword</note>
+      </trans-unit>
+      <trans-unit id="2bca81482d209823d8be86675dd71c65ca1abbc9" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_attrRelease_releaseProxyTicket }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/attribute-release/checks/checks.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.attrRelease.releaseProxyTicket</note>
+      </trans-unit>
+      <trans-unit id="4d4088b26293b3241e22678aed4163710f7b2dd2" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_attrRelease_releaseAuthenticationAttributes }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/attribute-release/checks/checks.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.attrRelease.releaseAuthenticationAttributes</note>
+      </trans-unit>
+      <trans-unit id="29df2a3d799f9ca80b019ed8e52632c7741c9b44" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_attrRelease_consent_enabled }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/attribute-release/consent/consent.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.attrRelease.constent.enabled</note>
+      </trans-unit>
+      <trans-unit id="b1a653d28f174b40e6cefe71b1ba664e4783d4ea" datatype="html">
+        <source>
+        <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_attrRelease_principleAttRepo_default }}"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/attribute-release/principal-repo/principal-repo.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.attrRelease.principleAttRepo.default</note>
+      </trans-unit>
+      <trans-unit id="e881b69eada4d09f0f5b476ca5580af3bbfa9dbc" datatype="html">
+        <source>
+        <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_attrRelease_principleAttRepo_cached }}"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/attribute-release/principal-repo/principal-repo.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.attrRelease.principleAttRepo.cached</note>
+      </trans-unit>
+      <trans-unit id="8164a45782f286eebe4d23d5b810ccef4f127453" datatype="html">
+        <source>
+          <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_attrRelease_policies_sourceAttribute }}"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/wsfedattrrelpolocies/wsfedattrrelpolicies.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.attrRelease.policies.sourceAttribute</note>
+      </trans-unit>
+      <trans-unit id="0fc94f95ff43a09a53fb0f8162643a718110f5ec" datatype="html">
+        <source>
+          <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_attrRelease_policies_wsFedClaim }}"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/wsfedattrrelpolocies/wsfedattrrelpolicies.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.attrRelease.policies.wsFedClaim</note>
+      </trans-unit>
+      <trans-unit id="80f7fa14db004c13623e88ff98e410036d8b112f" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_uap_default }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/uidattrs/uidattrs.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.uap.default</note>
+      </trans-unit>
+      <trans-unit id="beba13c5e0611426201fc896bdf248214e4a846d" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_uap_anon }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/uidattrs/uidattrs.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.uap.anon</note>
+      </trans-unit>
+      <trans-unit id="7f2b6fc57d6dda4e0c1c14c6124c5d8188ce041b" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_uap_principleAtt }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/uidattrs/uidattrs.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.uap.principleAtt</note>
+      </trans-unit>
+      <trans-unit id="dab8fca56e7d500107d8a881b90d41486549febc" datatype="html">
+        <source>Attribute Release Policy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/tab-attrrelease/tab-attrrelease.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e32d4d17ffcab779e9f66cf215225cbe57036e9" datatype="html">
+        <source>Attribute Release Options</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/tab-attrrelease/tab-attrrelease.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/tab-attrrelease/tab-attrrelease.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/tab-attrrelease/tab-attrrelease.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4e86aeee50514ac0977b471832ccb19300409995" datatype="html">
+        <source>Attribute Release Consent</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/tab-attrrelease/tab-attrrelease.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="67e8c2a0ec7bdede139d6207da6d87fb1673f4ad" datatype="html">
+        <source>Attribute Value Filters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/tab-attrrelease/tab-attrrelease.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ba353bdd0ede103f4c3e9d2724f855d223311ad4" datatype="html">
+        <source>Saml Client - Metadata</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/tab-saml/tab-saml.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="39ca423befbf38cb0975476836ad166276933e56" datatype="html">
+        <source>SAML Client - Security</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/tab-saml/tab-saml.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="21b644756299b0d023391ce34f927e2e22fb1c68" datatype="html">
+        <source>SAML Client - Optional Fields</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/tab-saml/tab-saml.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="66d28e22d6f275e9de0a2a2e2a8b335bb3f8f694" datatype="html">
+        <source>SAML Client - Name ID</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/tab-saml/tab-saml.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6fc215d0f6fbc219efa26ab12a856696df1c6abf" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_sas_casEnabled }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/enabled/enabled.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.sas.casEnabled</note>
+      </trans-unit>
+      <trans-unit id="14d582f735db0ad9a82ed9671a80afaaf78bda9d" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_oauthShowSecret }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/oauthclient/oauthclient.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.oauthShowSecret</note>
+      </trans-unit>
+      <trans-unit id="d90f52ef806002009d034b9539f2c8cf03cda0c0" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_oauthBypass }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/oauthclient/oauthclient.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.oauthBypass</note>
+      </trans-unit>
+      <trans-unit id="bd23514bae1a28a0b8023b8f065f33c4d4d9470d" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_oauthRefreshToken }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/oauthclient/oauthclient.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.oauthRefreshToken</note>
+      </trans-unit>
+      <trans-unit id="170846bc8fee1cb0f76767ab2ae2962b96fb0c27" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_oauthJsonFormat }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/oauthclient/oauthclient.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.oauthJsonFormat</note>
+      </trans-unit>
+      <trans-unit id="7bb2850a774c7afb0bc5021c9e9d45a9a6b8f91f" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_proxyPolicy_refuse }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/proxy/proxy.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.proxyPolicy.refuse</note>
+      </trans-unit>
+      <trans-unit id="c01d341ff935aca0c448a18840fedf5a407024f2" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_proxyPolicy_regex }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/proxy/proxy.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.proxyPolicy.regex</note>
+      </trans-unit>
+      <trans-unit id="2acd3fbbcb2d3bc7b29fbd48ee47c49ddb3017a3" datatype="html">
+        <source>You do not have permissions to create a service for the domain entered in the service id</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/serviceid/serviceid.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4511723d3c9e07270be093d593c3357da3fb7617" datatype="html">
+        <source>Please remove any leading or trailing spaces from your service id.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/serviceid/serviceid.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="97c1e14de436759f964e0cd3fd0b510be6283edd" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_oidcShowSecret }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/oidcclient/oidcclient.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.oidcShowSecret</note>
+      </trans-unit>
+      <trans-unit id="43bb0a9fdd5a1346c36af8ccb882fa5f1db76b6d" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_oidcBypass }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/oidcclient/oidcclient.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.oidcBypass</note>
+      </trans-unit>
+      <trans-unit id="3111135a702795016f26af8640b69b621799babf" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_oidcRefreshToken }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/oidcclient/oidcclient.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.oidcRefreshToken</note>
+      </trans-unit>
+      <trans-unit id="f40874aa95aea937e1658f19248c4ecfcd743f18" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_oidcJsonFormat }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/oidcclient/oidcclient.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.oidcJsonFormat</note>
+      </trans-unit>
+      <trans-unit id="8561e188c6722f5ee752aa12328743efb4d15669" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_oidc_signToken }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/oidcclient/oidcclient.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.oidc.signToken</note>
+      </trans-unit>
+      <trans-unit id="8bb7d9fed498bc553521e8846a9cb54435203b2b" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_oidc_implicit }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/oidcclient/oidcclient.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.oidc.implicit</note>
+      </trans-unit>
+      <trans-unit id="526e37cacfcebdcf518382fd930bf475fa1a4654" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_oidc_encrypt }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/oidcclient/oidcclient.component.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.oidc.encrypt</note>
+      </trans-unit>
+      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/contacts/contacts.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="60f6c1234cb041fbafe2fe89552dfba0ff5e1e44" datatype="html">
+        <source>First and last name of the contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/contacts/contacts.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">contact.name</note>
+      </trans-unit>
+      <trans-unit id="3df76d3b3f89b287f5c24c96866f02a4f7d35173" datatype="html">
+        <source>EMail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/contacts/contacts.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="74d0da3b22647786429e11c3a49dde46f13ed7d0" datatype="html">
+        <source>EMail of the contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/contacts/contacts.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description">contact.email</note>
+      </trans-unit>
+      <trans-unit id="cb4f939a517d8738795720fe9188abc1d0be43c0" datatype="html">
+        <source>Phone number of the contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/contacts/contacts.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <note priority="1" from="description">contact.phone</note>
+      </trans-unit>
+      <trans-unit id="882c7e933d2fddd3b4ccaaee17b316ea1ec9f1dd" datatype="html">
+        <source>Department of the contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/contacts/contacts.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <note priority="1" from="description">contact.department</note>
+      </trans-unit>
+      <trans-unit id="c8a4b08434382e10e8c77c8ca67f2b515f4e28ae" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_expirationPolicy_deleteWhenExpired }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/expiration/expiration.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.expirationPolicy.deleteWhenExpired</note>
+      </trans-unit>
+      <trans-unit id="15eb1f9d61fe5d924dace5fce0ba2e1a5d6f732a" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_expirationPolicy_notifyWhenDeleted }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/expiration/expiration.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.expirationPolicy.notifyWhenDeleted</note>
+      </trans-unit>
+      <trans-unit id="b879a4f18ce90e122f6b0f95de310e358d5510ae" datatype="html">
+        <source>
+      Metadata Expiration Duration
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/metadata/metadata.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="37b236c4810590119a781e038145cc9d0fb83997" datatype="html">
+        <source>If defined, will expire metadata in the cache after the indicated duration which will force CAS to retrieve and resolve the metadata again.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/metadata/metadata.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8ba4aa224695b60362ba8afe12c77a5052760771" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_saml_removeEmptyEntities }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/metadata/metadata.component.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+        <note priority="1" from="description">services.form.saml.removeEmptyEntities</note>
+      </trans-unit>
+      <trans-unit id="0d0372431492988bed7595a8585a1dcf477999af" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_saml_removeRoleless }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/metadata/metadata.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.saml.removeRoleless</note>
+      </trans-unit>
+      <trans-unit id="6b9e72e9fc56a461a1c379a9e813952e1c8c71b8" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_saml_signassertions }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/security/security.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.saml.signassertions</note>
+      </trans-unit>
+      <trans-unit id="13b7867edcb936edcfcfee0c4b302a5696aee29d" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_saml_signresponses }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/security/security.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.saml.signresponses</note>
+      </trans-unit>
+      <trans-unit id="afa5e8a4e886e2121087620d1ce785717e430425" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_saml_encryptassertions }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/security/security.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.saml.encryptassertions</note>
+      </trans-unit>
+      <trans-unit id="c0088ef0f34007fff5fb16ae7c2a3f3f9c154db9" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_saml_skipAssertionNameId }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/optional/optional.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.saml.skipAssertionNameId</note>
+      </trans-unit>
+      <trans-unit id="e8b52ee63cfa19716256a960f8b0ab89d643ba78" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_saml_skipInResponseTo }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/optional/optional.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.saml.skipInResponseTo</note>
+      </trans-unit>
+      <trans-unit id="927be1221d19ab762b98fe9b937d2274c16861b3" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_saml_skipNotOnOrAfter }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/optional/optional.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.saml.skipNotOnOrAfter</note>
+      </trans-unit>
+      <trans-unit id="3ca14a166c613f679e11be113bf4a2fe0b3520f2" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_saml_skipRecipient }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/optional/optional.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.saml.skipRecipient</note>
+      </trans-unit>
+      <trans-unit id="b1c192816e56d2ef5157b6225e0c18dc146963e0" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_saml_skipNotBefore }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/samlclient/optional/optional.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.saml.skipNotBefore</note>
+      </trans-unit>
+      <trans-unit id="932179a958ebab10df00e3ffc95cca05cf66fe81" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_attrRelease_attrFilter_excludeUnmapped }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/attribute-release/filters/filter-mapped/filter-mapped.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.attrRelease.attrFilter.excludeUnmapped</note>
+      </trans-unit>
+      <trans-unit id="14e407892fa96578fc230389521caa086924d0f8" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_attrRelease_attrFilter_completeMatch }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/attribute-release/filters/filter-mapped/filter-mapped.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">service.form.label.attrRelease.attrFilter.completeMatch</note>
+      </trans-unit>
+      <trans-unit id="67e213320cb531bc734870a55fdaca6cb6c0fd51" datatype="html">
+        <source>
+      Encrypt Username
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/uidattrs/principal/principal.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5b2cddc1399826332e64278089810e95609f1031" datatype="html">
+        <source>If checked the username attribute will be encrypted using the defined public key for the service</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/uidattrs/principal/principal.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">encpytUsername</note>
+      </trans-unit>
+      <trans-unit id="8f97658512ed645cf4f059d7e5a6e1c98e8302f6" datatype="html">
+        <source>
+      <x id="INTERPOLATION" equiv-text="{{ messages.services_form_label_multiauth_bypassenabled }}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/form/mfa/default/default.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+        <note priority="1" from="description">services.form.label.multiauth.bypassenabled</note>
+      </trans-unit>
+      <trans-unit id="680c36e808b13e69d9cb973bdd739d09becbd58e" datatype="html">
+        <source>
+          Service
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/commit-history/commit-history.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>

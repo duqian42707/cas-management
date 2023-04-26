@@ -43,6 +43,36 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ]
+            },
+            "production-zh-Hans": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "outputPath": "dist/zh-Hans/",
+              "i18nFile": "src/locale/messages.zh-Hans.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "zh-Hans",
+              "i18nMissingTranslation": "error"
+            },
+            "zh-Hans": {
+              "aot": true,
+              "outputPath": "dist/zh-Hans/",
+              "i18nFile": "src/locale/messages.zh-Hans.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "zh-Hans",
+              "i18nMissingTranslation": "error"
             }
           }
         },
@@ -54,6 +84,9 @@
           "configurations": {
             "production": {
               "browserTarget": "cas-management-angular-webapp:build:production"
+            },
+            "zh-Hans": {
+              "browserTarget": "cas-management-angular-webapp:build:zh-Hans"
             }
           }
         },
